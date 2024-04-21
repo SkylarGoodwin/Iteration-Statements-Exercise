@@ -34,19 +34,19 @@
         public static void OddOrEven(int a)
 
         {
-            if (a % 2 == 0) ;
+            if (a % 2 == 0) 
             { Console.WriteLine("even"); }
-            Console.WriteLine("odd");
+            else { Console.WriteLine("odd"); }
         }
         //Write a method to check whether a given number is positive or negative
 
         public static void PosOrNeg(int a)
         {
-            if (a < 0) ;
+            if (a < 0) 
             {
                 Console.WriteLine("Negative");
             }
-            Console.WriteLine("Positive");
+            else { Console.WriteLine("Positive"); }
         }
         //Write a method to read the age of a candidate and determine whether they can vote.
 
@@ -54,7 +54,7 @@
         {
             if (a >= 18)
             { Console.WriteLine("You can Vote"); }
-            Console.WriteLine("You can't vote yet");
+            else { Console.WriteLine("You can't vote yet"); }
         }
         //Hint: Use Parse or the safer TryParse() for an extra challenge
         //Parse()
@@ -64,11 +64,11 @@
         //Write a method to check if an integer(from the user) is in the range -10 to 10
         public static void ValueTen(int a)
         {
-             if (a <= 10 && a>= -10)
-             { 
-                Console.WriteLine($" {a} is Withen range"); 
-             }
-             else Console.WriteLine($" {a} is Not withen range");
+            if (a <= 10 && a >= -10)
+            {
+                Console.WriteLine($" {a} is Withen range");
+            }
+            else { Console.WriteLine($" {a} is Not withen range"); }
         }
         //Write a method to display the multiplication table(from 1 to 12) of a given integer
         public static void TimesTable(int a)
